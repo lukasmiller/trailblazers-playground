@@ -8,7 +8,7 @@ import { useFrame } from '@react-three/fiber'
 
 export default function Desert({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/Models/Resource_Desert.gltf')  
+  const { nodes, materials } = useGLTF('./Models/Resource_Desert.gltf')  
   // Hold state for hovered event
   const [hovered, hover] = useState(false)
   // Subscribe this component to the render-loop, rotate the mesh every frame
@@ -28,4 +28,4 @@ export default function Desert({ ...props }) {
   )
 }
 
-useGLTF.preload('/Models/Resource_Desert.gltf')
+useGLTF.preload('./Models/Resource_Desert.gltf')

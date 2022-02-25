@@ -8,7 +8,7 @@ import { useFrame } from '@react-three/fiber'
 
 export default function Beach({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/Models/Resource_Beach.gltf')  
+  const { nodes, materials } = useGLTF('./Models/Resource_Beach.gltf')  
   // Hold state for hovered event
   const [hovered, hover] = useState(false)
   // Subscribe this component to the render-loop, rotate the mesh every frame
@@ -28,4 +28,4 @@ export default function Beach({ ...props }) {
   )
 }
 
-useGLTF.preload('/Models/Resource_Beach.gltf')
+useGLTF.preload('./Models/Resource_Beach.gltf')

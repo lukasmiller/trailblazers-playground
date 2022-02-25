@@ -10,7 +10,7 @@ function Ocean() {
   const ref = useRef();
   const gl = useThree((state) => state.gl);
   const waterNormals = useLoader(
-    THREE.TextureLoader, "/Images/waternormals3.jpg"
+    THREE.TextureLoader, "./Images/waternormals3.jpg"
   );
 
 

@@ -8,7 +8,7 @@ import { useFrame } from '@react-three/fiber'
 
 export default function Brick({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/Models/Resource_Brick.gltf')  
+  const { nodes, materials } = useGLTF('./Models/Resource_Brick.gltf')  
   // Hold state for hovered event
   const [hovered, hover] = useState(false)
   // Subscribe this component to the render-loop, rotate the mesh every frame
@@ -28,4 +28,4 @@ export default function Brick({ ...props }) {
   )
 }
 
-useGLTF.preload('/Models/Resource_Brick.gltf')
+useGLTF.preload('./Models/Resource_Brick.gltf')

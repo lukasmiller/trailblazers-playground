@@ -8,7 +8,7 @@ import { useFrame } from '@react-three/fiber'
 
 export default function Wheat({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF('/Models/Resource_Wheat.gltf')  
+  const { nodes, materials } = useGLTF('./Models/Resource_Wheat.gltf')  
   // Hold state for hovered event
   const [hovered, hover] = useState(false)
   // Subscribe this component to the render-loop, rotate the mesh every frame
@@ -28,4 +28,4 @@ export default function Wheat({ ...props }) {
   )
 }
 
-useGLTF.preload('/Models/Resource_Wheat.gltf')
+useGLTF.preload('./Models/Resource_Wheat.gltf')
