@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.94140cac.css",
-    "main.js": "./static/js/main.d60ad6df.js",
-    "static/js/787.b701888c.chunk.js": "./static/js/787.b701888c.chunk.js",
-    "index.html": "./index.html",
-    "main.94140cac.css.map": "./static/css/main.94140cac.css.map",
-    "main.d60ad6df.js.map": "./static/js/main.d60ad6df.js.map",
-    "787.b701888c.chunk.js.map": "./static/js/787.b701888c.chunk.js.map"
+    "main.css": "/trailblazers-playground/static/css/main.94140cac.css",
+    "main.js": "/trailblazers-playground/static/js/main.46352d6c.js",
+    "static/js/787.b701888c.chunk.js": "/trailblazers-playground/static/js/787.b701888c.chunk.js",
+    "index.html": "/trailblazers-playground/index.html",
+    "main.94140cac.css.map": "/trailblazers-playground/static/css/main.94140cac.css.map",
+    "main.46352d6c.js.map": "/trailblazers-playground/static/js/main.46352d6c.js.map",
+    "787.b701888c.chunk.js.map": "/trailblazers-playground/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94140cac.css",
-    "static/js/main.d60ad6df.js"
+    "static/js/main.46352d6c.js"
   ]
 }
