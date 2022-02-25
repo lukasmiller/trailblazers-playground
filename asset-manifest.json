@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/trailblazers-playground/static/css/main.94140cac.css",
-    "main.js": "/trailblazers-playground/static/js/main.bcf1dfac.js",
+    "main.js": "/trailblazers-playground/static/js/main.5bc17497.js",
     "static/js/787.b701888c.chunk.js": "/trailblazers-playground/static/js/787.b701888c.chunk.js",
     "index.html": "/trailblazers-playground/index.html",
     "main.94140cac.css.map": "/trailblazers-playground/static/css/main.94140cac.css.map",
-    "main.bcf1dfac.js.map": "/trailblazers-playground/static/js/main.bcf1dfac.js.map",
+    "main.5bc17497.js.map": "/trailblazers-playground/static/js/main.5bc17497.js.map",
     "787.b701888c.chunk.js.map": "/trailblazers-playground/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94140cac.css",
-    "static/js/main.bcf1dfac.js"
+    "static/js/main.5bc17497.js"
   ]
 }
